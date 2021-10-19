@@ -1,5 +1,6 @@
-import CoverImage from "../images/cover-image.jpeg"
-import ProfileImage from "../images/profile-image.png"
+import CoverImage from "../images/cover-image.jpg";
+import ProfileImage from "../images/profile-image.jpg";
+import { FaTwitter, FaGithub } from "react-icons/fa";
 
 export const Header = () => {
   return (
@@ -9,14 +10,18 @@ export const Header = () => {
       <div className="display-table" >
         <div className="display-table-contents">
         <div className="profile-thumb" style={{backgroundImage: `url(${ProfileImage})`}}></div>
-        <h1 className="title-text">小寺 浩揮</h1>
+        <h1 className="title-text">ニイジマジョン</h1>
         <h3 className="title-text">学生</h3>
         <ul className="social-icons">
           <li className="icon-link">
-
+            <a href = "https://twitter.com/">
+              <FaTwitter color="white" size="2rem" />
+            </a>
           </li>
           <li className="icon-link">
-
+          <a href="https://github.com/">
+              <FaGithub color="white" size="2rem" />
+          </a>
           </li>
         </ul>
       </div>
