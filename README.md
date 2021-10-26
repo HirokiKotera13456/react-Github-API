@@ -2,6 +2,7 @@
 
 # アプリケーションについて
 GithubのAPIを用いて自己紹介アプリを作成いたしました。
+(https://app.netlify.com/sites/git-api-react/overview)
 
 ## 環境
 - OS: windows
