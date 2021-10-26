@@ -4,8 +4,8 @@ export const Contact = () => {
       <div className="container">
         <div className="contact-contents">
           <h2>Contact to Me!</h2>
-          <p className="description">お仕事のご相談・ご依頼など下記よりご連絡ください。</p>
-          <a href="https://twitter.com/" className="btn">Contact Us</a>
+          <p className="description">ご相談・ご連絡など下記よりご連絡ください。</p>
+          <p>hirokikotera0211@gmail.com</p>
         </div>
       </div>
     </div>
